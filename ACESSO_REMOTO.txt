@@ -1,0 +1,140 @@
+- Servidores
+		- go7875sx001.goiania.caixa 											- IP - 10.123.15.76
+		- go7875sx014.goiania.caixa 											- IP - 10.123.15.22
+		- go7875sx017.goiania.caixa 											- IP - 10.123.15.17
+		- go7875sx018.goiania.caixa 											- IP - 10.123.15.18
+		- go7875sx022.goiania.caixa 											- IP - 10.123.15.16
+		- go7875sx024.goiania.caixa 											- IP - 10.123.15.14
+		- go7875sx026.goiania.caixa 											- IPs
+			- 10.123.15.50											
+			- 10.123.15.51											
+			- 10.123.15.52											
+			- 10.123.15.53											
+			- 10.123.15.54											
+			- 10.123.15.55											
+			- 10.123.15.56											
+			- 10.123.15.57											
+			- 10.123.15.58											
+			- 10.123.15.59											
+		- go7875sx028.goiania.caixa 											- IP - 10.123.15.60
+		- go7875sx029.goiania.caixa 											- IP - 10.123.15.19
+		- go7875sx036.goiania.caixa 											- IP - 10.123.15.79
+		- go7875sx038.goiania.caixa 											- IP - 10.123.15.77
+		- sctdeapllx0035.df.caixa 												- IP - 10.116.83.203
+		- go7875nt042 															- IP - 10.123.15.66
+		- sctdedadnt0054 														- IP - 10.116.93.108
+		- DF7436SR355															- IP - 10.123.15.150
+		- DF7436SR467															- IP - 10.123.12.205
+		- ftp://ftp.cetec.df.caixa/ 											- IP - 10.222.157.159
+		- ftp://ftp.go.caixa													- IP - 10.123.15.49
+		- ibmspdes.caixa														- IP - 10.192.224.66
+		- api.des.caixa															- IP - 10.116.98.71
+		- sc7448sr363.sc.caixa 													- IP - 10.123.11.63
+		- pr0000sr155.corp.caixa.gov.br 										- IP - 10.123.10.91
+		- ldap.caixa															- IP - 10.222.158.50
+		- smtptest.correiolivre.caixa											- IP - 10.123.37.43
+		- ldapcluster.corecaixa													- IP - 10.192.176.103
+		- cctdcapllx0045.df.caixa												- IP - 10.123.8.84
+		- df7436sr467.corp.caixa.gov.br											- IP - 10.123.12.205
+		- mq.brp5.corecaixa														- IP - 10.252.176.47
+		- mq-qspa-sibarsp.caixa													- IP - 10.118.184.24
+		- proxydes.caixa														- IP - 10.252.32.65
+		- des.barramento.caixa 													- IP - 10.192.225.5
+		- hmp.barramento.caixa													- IP - 10.116.116.45
+		- seget.des.pedes.caixa	, seget.hmp.pedes.caixa, seget.tst.pedes.caixa 	- IP - 10.123.15.19
+		- login.des.caixa 														- IP - 10.116.84.243
+		- logindes.caixa.gov.br													- IP - 10.116.84.244
+		- login.hmp.caixa														- IP - 10.116.112.75
+		- loginhmp.caixa.gov.br, login.hmp.corp.caixa.gov.br					- IP - 10.116.112.76
+		- login.tqs.caixa														- IP - 10.116.18.235
+		- logintqs.caixa.gov.br													- IP - 10.116.18.236
+		- relatoriapedes.caixa													- IP - 10.123.37.245
+		- des.servicos.caixa													- IP - 10.116.83.210
+		- hmp.servicos.caixa													- IP - 10.116.116.126
+		- siecm.des.caixa														- IP - 10.116.80.1
+		- siecm.hmp.caixa														- IP - 10.116.236.13
+		- s.siclon.caixa														- IP - 10.123.87.100
+		- des.analytics.mobilidade.caixa.gov.br									- IP - 10.224.5.3
+		- bpm.des.pedes.caixa													- IP - 10.123.15.19
+		- ba0000sx205.ba.caixa													- IP - 10.123.21.44
+		- simtr-jbpm.hmp.caixa													- IP - 10.116.112.207
+		- bpm.geban.caixa														- IP - 10.123.39.70
+		- 10.116.82.91 (Uso IP diretamente)
+		- 10.192.224.100 (Usamos o IP diretamente) - Servidor MQ
+		- 10.216.80.110 (IP Direto) - Servidor MQ
+		- 10.123.15.69 (IP Direto) - Servidor MQ
+		- 10.216.80.111 - Servidor MQ
+		
+- Configuração da máquina virtual
+	- Intel core i5 
+	- 12 GB de RAM 2133 MHZ ( Para desenvolvedores) 8GB (Analistas)
+	- 250GB 
+
+- Links da caixa ( sinop, qualidade pedes, artefatos, binario caixa)
+
+	- http://alm.caixa = 10.116.82.199
+	- http://ti.caixa = 10.123.36.191
+	- http://gid.caixa = 10.123.36.191
+	- https://servicos.caixa = 10.123.6.62
+	- http://pentahoprd.proinfo.caixa = 10.123.6.10
+	- http://jbosslogs.proinfo.caixa = 10.123.36.57
+	- http://hmp.jbosslogs.proinfo.caixa = 10.116.114.104
+	- http://pgbadger.proinfo.caixa = 10.123.8.34
+	- http://sinop.caixa = 10.116.83.113
+	- http://qualidade.pedes.caixa = 10.116.83.184
+	- http://artefatos.pedes.caixa = 10.116.82.229
+	- http://implantacao.ceptibr.caixa = 10.192.134.39
+	- http://grafana.ceptibr.caixa = 10.122.150.218 
+	- http://binario.caixa = 10.122.150.170
+	- http://cadernoti.caixa = 10.123.40.170
+	- http://intranet.caixa = 10.123.6.15
+	- http://financeiro.caixa = 10.123.12.26
+	- http://dev-unidades = 10.116.83.232
+	- http://ppds.caixa = 10.116.18.122
+	- http://portalapi.caixa = 10.121.16.3
+	- http://usuarios.hmp.pedes.caixa = 10.123.10.91
+	- http://wikides.caixa = 10.116.82.240
+	- http://centralpedes.caixa = 10.222.156.4
+	- http://sigct.caixa = 10.123.6.10
+	- http://portalapi.des.caixa = 10.116.98.70
+	- http://unidades = 10.123.80.13
+	- http://siiac.caixa = 10.123.6.10
+	- http://siacg.caixa = 10.123.8.31
+	- http://sismn.caixa = 10.192.96.40
+	- http://sigoc.caixa = 10.123.20.226
+	
+- Sofwares utilizados ( eclipse, winscp, visual studio, visual code)
+
+		- Eclipse Oxygen
+		- Jboss EAP 6.4.7
+		- Jboss EAP 7.0.8
+		- Visual Studio Code 
+		- VS Express 2013 for Web
+		- VS Express 2013 for Windows Desktop
+		- PgAdmin III
+		- PostgreSQL 9.4
+		- Skype for Business
+		- Winscp
+		- NodeJS 8.11.4
+		- NPM 5.6.0
+		- Nginx 1.9.5
+		- Git 2.23.0
+		- Tortoise Git 2.4.0.2
+		- JDK 1.7.0_79 e 1.8.0_144
+		- Notepad++
+		- Postman 6.0.9
+		- PowerDesigner InformationArchitect 16.5.0.3982
+		- Driver ODBC Oracle 12 32 bits 
+		- Pentaho 5.4
+		- Microsoft Sharepoint Designer 2013
+		- 7zip
+		- Microsoft Office 2003
+		- Microsoft SQL Server Report Builder 2016
+		- Microsoft SQL Server Management Studio V17.2
+		- CamlDesigner2013
+		- Microsoft Outlook 2016
+		- Putty
+		- Jaspersoft Studio 6.5.1
+		- Ireport 5.6.0
+		- Keycloak 4.8.3
+	
